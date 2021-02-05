@@ -34,8 +34,8 @@
 
 			dejaAffiche1.push(personneAfficher1);
 			dejaAffiche2.push(personneAfficher2);
-			document.getElementById('affiche1').innerHTML=dejaAffiche1 +'</br>';
-			document.getElementById('affiche2').innerHTML=dejaAffiche2 +'</br>';
+			document.getElementById('affiche1').innerHTML +=dejaAffiche1 +'</br>' ;
+			document.getElementById('affiche2').innerHTML += dejaAffiche2 +'</br>';
 			
 
 		}
